@@ -1,0 +1,135 @@
+ :root {
+        font-size: 0.875em; 
+    }
+
+    body {
+        background-image: url(assets/img/backgroudMadera.jpg);
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    /* Encabezado */
+    header {
+        background: #333;
+        color: #fff;
+        padding: 1em; 
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    /* Hero */
+    .hero {
+        background: url('assets/img/restaurant-4011989_640.jpg') center/cover;
+        color: white;
+        text-align: center;
+        height: 50vh; 
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+    }
+
+    .hero button {
+        background: #ff9800;
+        border: none;
+        padding: 0.8em 1.5em;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+
+    /* Menú Destacado */
+    .menu-destacado {
+        padding: 2em;
+        display: grid;
+        gap: 1em;
+    }
+
+    .tarjeta {
+        border: 1px solid #ccc;
+        padding: 1em;
+        text-align: center;
+        background: #fff;
+    }
+
+    .tarjeta img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Callout */
+    .callout {
+        background: #ff9800;
+        color: white;
+        padding: 2em;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    /* Promociones del día */
+    .promos {
+        padding: 2em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+        gap: 1em;
+    }
+
+    .promo {
+        background: #f5f5f5;
+        padding: 1em;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    /* Contacto */
+    .contacto {
+        padding: 2em;
+        background: #eee;
+        text-align: center;
+    }
+
+    .contacto button {
+        background: #4caf50;
+        border: none;
+        padding: 0.8em 1.5em;
+        color: white;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+
+    /* Footer */
+    footer {
+        height: 20vh; 
+        background: #333;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: clamp(0.8rem, 1.2vw, 1.2rem);
+    }
